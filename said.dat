@@ -7,7 +7,7 @@ nbavion=6;
 NomLocali={"Bordeaux","Clermont-Ferrand","Marseille","Nantes","Nice","Toulouse"};
 NomLocalj={"Berlin","Berne","Bruxelles","Londres","Rome","Vienne"};
 
-Distance=
+Nbrpassagers=
 [[ 35 , 12 , 16 , 38 , 5 , 2 ],
 [ 25 , 8 , 9 , 24 , 6 , 8 ],
 [ 12 , 8 , 11 , 27 , 3 , 2 ],
