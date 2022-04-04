@@ -8,14 +8,14 @@ int nbavion = ...;
 range loci = 1..nbavion;
 range locj = 1..nbavion;
 
-float Distance[loci][locj] = ...;
+float Nbrpassagers[loci][locj] = ...;
 
 //Variables
-dvar boolean provenance [loci][locj]; // Déclarer les variables de décisions
+dvar boolean provenance [loci][locj]; // DÃ©clarer les variables de dÃ©cisions
 
 //Objectif
 minimize sum ( i in loci , j in locj )
-Distance[i][j]*provenance[i][j];
+Nbrpassagers[i][j]*provenance[i][j];
 
 //Constraintes
 
